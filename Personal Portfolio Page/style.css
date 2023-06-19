@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	color: #B14A30;
+}
+
+body {
+	font-family: 'Roboto Slab', serif;
+	background-color: #FFDDD6;
+}
+
+a {
+	text-decoration: none;
+}
+
+li {
+	list-style: none;
+}
+
+.navbar {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 20px;
+	background-color: #FFB6C1;
+	top: 0;
+}
+
+.logo {
+	font-size: 32px;
+}
+
+.menu {
+	display: flex;
+	gap: 1em;
+	font-size: 18px;
+}
+
+.section {
+	height:100vh;
+	width: 100%;
+	/* background-color: #000000; */
+	text-align: center;
+}
+
+#welcome-section {
+	padding: 35vh 0;
+}
+
+div h1 {
+	font-size: 50px;
+}
+
+#welcome-section h1 {
+	color: #DDAF86;
+}
+
+#ife {
+	color: #1B0000;
+}
+
+div p {
+	color: #411900;
+	font-weight: 500;
+	font-size: 20px;
+}
+
+#projects h1 {
+	color: #1B0000;
+	border-bottom: 0.2rem solid #1B0000;
+	max-width: 640px;
+	text-align: center;
+	margin: 0 auto 8rem auto;
+	margin-bottom: 0;
+}
+
+.project-row {
+	margin-top: 20px;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.column {
+	flex: 30%;
+	padding: 20px;
+}
+
+@media screen and (max-width: 992px) {
+	.column {
+		flex: 60%;
+	}
+}
+
+img {
+	height: 224px;
+	width: 336px;
+}
+
+.column p {
+	font-size: 16px;
+}
+
+.title {
+	color: #1B0000;
+	font-weight: 600;
+}
+

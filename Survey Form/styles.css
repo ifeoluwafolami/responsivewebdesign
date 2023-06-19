@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Cardo&family=Eczar&family=Fira+Sans:wght@100&family=Square+Peg&display=swap');
+
+body {
+    width: 100%;
+    font-family: "Eczar", cursive;
+    font-size: 16px;
+    background: url("https://images.unsplash.com/photo-1512418490979-92798cec1380?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NDB8fGdpZnQlMjBib3hlc3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=700&q=60");
+    background-size: cover;
+    overflow-x: hidden;
+}
+.top {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+p[id="description"], .fieldsetp {
+    padding-bottom: 15px;
+}
+
+form {
+    width: 80vw;
+    background-color: beige;
+    min-width: 300px;
+    max-width: 800px;
+    margin: 0 auto;
+    /* text-align: center; */
+    /* padding: 2em; */
+    /* padding-top: 0; */
+}
+fieldset {
+    padding: 2rem;
+    border: none;
+}
+
+.fieldsetp {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    font-size: 24px;
+}
+.form-lines {
+
+    padding: 10px;
+}
+
+input{
+    width: 100%;
+    min-height: 1.5em;
+}
+input[type="radio"], input[type="checkbox"] {
+    width: auto;
+    vertical-align: middle;
+    margin-top: -1px;
+}
+
+hr {
+    width: 65%;
+
+}
+
+.patronage {
+    display: inline;
+}
+
+textarea, select {
+    width: 100%;
+}
+
+.submission {
+    text-align: center;
+}
+button {
+    font-size: 18px;
+}
